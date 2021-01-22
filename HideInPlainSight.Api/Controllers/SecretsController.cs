@@ -22,15 +22,14 @@ namespace HideInPlainSight.Api.Controllers
         [HttpGet("decrypt")]
         public IActionResult Decrypt([FromBody] DecryptionRequest request)
         {
-            var random = new Random(request.Key.GetHashCode());
             try
             {
                 var decrypted = SecretService.Decrypt(request.Payload, request.Key);
                 return Ok(decrypted);
             }
-            catch (Exception exception)
+            catch (Exception)
             {
-                return Ok("That decryption totally worked.");
+                return BadRequest(request.Key);
             }
         }
     }
