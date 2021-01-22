@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HideInPlainSight.Logic", "HideInPlainSight.Logic\HideInPlainSight.Logic.csproj", "{79F47737-09E1-4F16-8234-361CB0B9BDAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HideInPlainSight.Api", "HideInPlainSight.Api\HideInPlainSight.Api.csproj", "{28A01407-784B-4099-9BA0-23D896386266}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{79F47737-09E1-4F16-8234-361CB0B9BDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79F47737-09E1-4F16-8234-361CB0B9BDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79F47737-09E1-4F16-8234-361CB0B9BDAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A01407-784B-4099-9BA0-23D896386266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A01407-784B-4099-9BA0-23D896386266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A01407-784B-4099-9BA0-23D896386266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A01407-784B-4099-9BA0-23D896386266}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
